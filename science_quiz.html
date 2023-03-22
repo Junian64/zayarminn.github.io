@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <title>Science Quiz</title>
+	 <meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="science_quiz.css" type="text/css"/>
+	 <script src="science_quiz.js" defer></script>
+ </head>
+	 <body>
+	<h1>welcome to my science quiz</h1>
+	
+	<p id="question"  class="question" hidden></p>
+	
+	<div>
+	<input type="text"  class="inputBox"  id="input" placeholder="Answer here" hidden>
+	</div>
+	
+	<div class="btn">
+	<button onclick="submit()" id="submit"  class="submit" hidden>Submit</button>
+	</div>
+	
+	<div class="check_correction">
+	<p id="result" class="result"></p>
+	<p id="result1" class="result"></p>
+	</div>
+	
+	<p id="genQ"  class="genQ" onclick="genQ()">Generate A Question</p>
+	<div>
+	<button id="QnA" class="genQ" hidden onclick="QnA()">Questions & Answers</button>
+	</div>
+	
+	<p class="owner">Created By ZYM</p>
+	
+	 </body>
+ </html>
